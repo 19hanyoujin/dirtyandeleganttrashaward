@@ -1,0 +1,688 @@
+body{background-color: black;}
+
+#trash1{ 
+    /* 감동란 */
+margin-left: 280px;
+}
+
+#trash2{  
+    /* 빵 */
+margin-top: -610px;
+margin-left: 950px;
+}
+
+#trash5{  
+    /* 요구르트 */
+    margin-top: -85px;
+    margin-left: 1250px;
+    } 
+
+#text1{
+    /* 더럽지만 우아한 타이틀 */
+position: absolute;
+width: 430px;
+height: 256px;
+left: 520px;
+top: 168px;
+
+font-family: 'Noto Serif KR';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 128%;
+/* or 82px */
+
+letter-spacing: -0.05em;
+
+background: radial-gradient(156.05% 296.4% at 104.88% 33.01%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+#text2{
+    /* 67층 */
+position: absolute;
+width: 210px;
+height: 193px;
+left: 985px;
+top: 423px;
+
+font-family: 'Noto Serif KR';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 137%;
+/* or 55px */
+
+letter-spacing: -0.01em;
+
+background: radial-gradient(78.44% 78.44% at 30% 47.77%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+} 
+
+#text3{
+    /* 변화가 필요하다 */
+    position: absolute;
+width: 332px;
+height: 86px;
+left: 888px;
+top: 753px;
+
+font-family: 'Noto Serif KR';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 153%;
+/* or 31px */
+
+letter-spacing: -0.03em;
+
+background: radial-gradient(299.89% 1224.72% at 6.8% 90.43%, #FFFFFF 26.35%, rgba(0, 0, 0, 0) 72.6%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+#trash3{  
+    /* 쿠크다스 */
+margin-top: -220px;
+margin-left: 455px;
+    }
+
+#trash4{  
+    /* 생수 */
+margin-top: -350px;
+margin-left: 400px;
+        }
+
+#trash6{  
+    /* 참깨라면 */
+margin-top: -480px;
+margin-left: 1050px;
+}
+
+#text4{
+    /* 소셜디자인 */
+    position: absolute;
+width: 520px;
+height: 163px;
+left: 430px;
+top: 1805px;
+
+font-family: 'Noto Serif KR';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+letter-spacing: -0.03em;
+
+color: #DB00FF;
+
+}
+
+#trash7{
+    /* 쓰레기통 보라색 이미지 */
+    position: absolute;
+width: 250px;
+height: 312px;
+left: 430px;
+top: 1898px;
+
+}
+
+#text5{
+    /* 쓰레기통이 있지만 분리수거가 되지 않고 있는 학교, 
+    아무런 죄책감없이 버리는 학생들에게 주목했고 오래전부터 
+    꾸준하게 언급되고 있는 쓰레기 문제에 대해 계속해서 목소리를 
+    내야 할 필요가 있고, 디자이너로서 해야 할 역할이 분명 있다 생각했습니다. 
+    주변 가장 가까이에서 일어나는 한경대학교 제 3공학관 6,7층 디자인학과 쓰레기 
+    문제에 대해 실험, 참여, 변화 라는 세 가지 키워드를 중심으로 소셜디자인 프로젝트를 
+    진행합니다. */
+    position: absolute;
+    width: 250px;
+    height: 327px;
+    left: 700px;
+    top: 1895px;
+    
+    font-family: 'Noto Serif KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 166.5%;
+    /* or 27px */
+    
+    text-align: justify;
+    letter-spacing: -0.03em;
+    
+    color: #D9D9D9;
+}
+
+#text6{
+    /* 문제점 */
+position: absolute;
+width: 644px;
+height: 98px;
+left: 432px;
+top: 2295px;
+
+font-family: 'Noto Serif KR';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 140%;
+/* or 28px */
+
+letter-spacing: -0.03em;
+
+background: linear-gradient(147.32deg, #DB00FF 19.54%, rgba(0, 0, 0, 0) 161.18%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+}
+
+#text7{
+    /* 지난번에도 공지했던 ‘디자인학과 사용규칙’ 이 제대로 이행되고 있지 않아 
+    다시 말씀드립니다. 포트폴리오실을 비롯하여 모든 교실은 모두가 사용하는 공간입니다. 
+    제발 쓰레기, 자신 물건들을 챙겨가 주시기 바랍니다. 쓰레기는 쓰레기통에 버리면 되고, 
+    자기 물건은 사물함에 빌려서 넣어놓거나, 들고 가주시기 바랍니다. 여기는 혼자만 쓰는 
+    공간이 아니므로, 인식해주시면 감사하겠습니다. ‘버리는 사람 따로, 치우는 사람 따로’가 
+    아닌 자기 쓰레기는 스스로 버려주시면 감사하겠습니다! */
+
+position: absolute;
+width: 249px;
+height: 432px;
+left: 431px;
+top: 2352px;
+
+font-family: 'Noto Serif KR';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 166.5%;
+/* or 27px */
+
+text-align: justify;
+letter-spacing: -0.03em;
+
+color: #D9D9D9;
+
+}
+
+#text8_t{
+    /* 구겨진 종이 */
+    position: absolute;
+    width: 64px;
+    height: 98px;
+    left: 1000px;
+    top: 2852.87px;
+    
+}
+
+
+/* 쓰레기 그래픽 시작 */
+
+
+/* 타이틀 */
+#trashthrowtitle{
+position: absolute;
+width: 1019px;
+height: 237.38px;
+left: 450px;
+top: 4705px;}
+
+/* 쌀과자 */
+#trashgraphic1{
+position: absolute;
+width: 236px;
+height: 261px;
+left: 430px;
+top: 4880px;}
+
+/* 버스표 */
+#trashgraphic2{
+position: absolute;
+width: 129px;
+height: 109px;
+left: 640px;
+top: 4905px;}
+
+/* 포스틱 */
+#trashgraphic3{
+position: absolute;
+width: 160px;
+height: 192px;
+left: 714px;
+top: 4902px;}
+
+/* 씨유봉지*/
+#trashgraphic4{
+position: absolute;
+width: 347px;
+height: 614px;
+left: 848px;
+top: 4894px;}
+
+/* 빵유산지껍질 */
+#trashgraphic5{
+position: absolute;
+width: 199px;
+height: 239px;
+left: 1010px;
+top: 4883px;}
+
+/* 죽 */
+#trashgraphic6{
+position: absolute;
+width: 300px;
+height: 267px;
+left: 1175px;
+top: 4860px;}
+
+/* 빨대 */
+#trashgraphic7{
+position: absolute;
+width: 80px;
+height: 300px;
+left: 1415px;
+top: 4855px;}
+
+/* 코카콜라 */
+#trashgraphic8{
+    position: absolute;
+    width: 250px;
+    height: 584px;
+    left: 365px;
+    top: 5090px;
+    }
+
+/* 종이인형 */        
+#trashgraphic9{
+    position: absolute;
+    width: 259px;
+    height: 431px;
+    left: 568px;
+    top: 5014px;}
+
+/* 구겨진종이 */
+    #trashgraphic9-10{
+        position: absolute;
+        width: 123.62px;
+        height: 132.05px;
+        left: 757px;
+        top: 5042px;
+        }
+
+/* 야구르트큰거 */
+#trashgraphic10{
+position: absolute;
+width: 158px;
+height: 261px;
+left: 780px;
+top: 5157px;}
+
+/* 야구르트작은거 */
+#trashgraphic11{
+position: absolute;
+width: 142px;
+height: 238px;
+left: 1150px;
+top: 4967px;}
+
+/* 민트초코 */
+#trashgraphic12{
+    position: absolute;
+    width: 210px;
+    height: 393px;
+    left: 1100px;
+    top: 5105px;
+    }
+
+/* 빵비닐 */
+#trashgraphic13{
+position: absolute;
+width: 210px;
+height: 393px;
+left: 1220px;
+top: 5010px;}
+
+/* 노란빨대 */
+#trashgraphic13-14{
+position: absolute;
+width: 128px;
+height: 368px;
+left: 1260px;
+top: 5170px;}
+
+/* 물통 */
+#trashgraphic14{
+    position: absolute;
+    width: 230px;
+    height: 522px;
+    left: 1300px;
+    top: 5120px;}
+
+/* 스벅플라스틱 */
+#trashgraphic15{
+    position: absolute;
+    width: 265px;
+    height: 328px;
+    left: 590px;
+    top: 5360px;
+    }
+
+/* 쿠크다스 */
+#trashgraphic16{
+    position: absolute;
+width: 221.67px;
+height: 98.98px;
+left: 790px;
+top: 5410px;
+}
+
+/* 밑에 있는 투명비닐 */
+
+#trashgraphic16-17{
+   position: absolute;
+    width: 180px;
+    height: 358px;
+    left: 1030px;
+    top: 6080px;
+}
+
+/* 찌그러진캔커피까망 */
+#trashgraphic17{
+    position: absolute;
+width: 221.67px;
+height: 98.98px;
+left: 825px;
+top: 5400px;
+} 
+
+/* 야구르트비닐 */
+#trashgraphic18{
+    position: absolute;
+    width: 322px;
+    height: 328px;
+    left: 840px;
+    top: 5450px;
+    rotate: -5deg;
+}
+
+/* 바나나우유 */
+#trashgraphic19{
+position: absolute;
+width: 197px;
+height: 291px;
+left: 1170px;
+top: 5415px;}
+
+/* 밥 */
+#trashgraphic20{
+position: absolute;
+width: 210px;
+height: 288px;
+left: 390px;
+top: 5730px;}
+
+/* 네스퀵 */
+#trashgraphic20-21{
+    position: absolute;
+    width: 180px;
+    height: 358px;
+    left:1180px;
+    top: 5630px;
+   } 
+
+/* 수정테이프 */
+#trashgraphic21{
+    position: absolute;
+    width: 134px;
+    height: 196px;
+    left: 590px;
+    top: 5625px; 
+    }
+
+    /* 씨유빵빵한비닐 */
+    #trashgraphic22{
+        position: absolute;
+        width: 375px;
+        height: 425px;
+        left: 685px;
+        top: 5675px;
+    rotate: -16deg;}
+
+/* 출처없는 찌그러진 물통*/
+        #trashgraphic23{
+            position: absolute;
+            width: 217px;
+            height: 391px;
+            left: 1060px;
+            top: 7056px;}
+
+/* 검은콩 */
+#trashgraphic23-24{
+position: absolute;
+width: 131px;
+height: 260px;
+left: 1050px;
+top: 5800px;
+} 
+
+/* 청포도에이드*/
+#trashgraphic24{ 
+    position: absolute;
+    width: 180px;
+    height: 358px;
+    left: 1073px;
+    top: 5599px;
+rotate: 14deg;}
+
+/* 수저*/
+#trashgraphic25{ 
+    position: absolute;
+    width: 180px;
+    height: 358px;
+    left: 550px;
+    top: 5760px;}
+
+/* 빨간빨대플라스틱컵*/
+#trashgraphic26{ 
+    position: absolute;
+    width: 180px;
+    height: 358px;
+    left: 1515px;
+    top: 5650px;}
+
+/*야구르트다섯개*/
+#trashgraphic27{ 
+    position: absolute;
+    width: 180px;
+    height: 358px;
+    left: 510px;
+    top: 6285px;}
+
+/*구론산 */
+#trashgraphic28{ 
+    position: absolute;
+    width: 180px;
+    height: 358px;
+    left:1500px;
+    top: 5600px;}
+
+/*감동란*/
+#trashgraphic29{ 
+    position: absolute;
+    width: 180px;
+    height: 358px;
+    left: 1280px;
+    top: 5620px;}
+
+/*에너지바*/
+#trashgraphic30{ 
+    position: absolute;
+    width: 180px;
+    height: 358px;
+    left: 390px;
+    top: 6035px;}
+
+/*고로케껍질*/
+#trashgraphic31{ 
+    position: absolute;
+    width: 180px;
+    height: 358px;
+    left: 785px;
+    top: 6100px;}
+
+/* 더리터카페컵 */
+#trashgraphic32{ 
+    position: absolute;
+width: 180px;
+height: 358px;
+left: 390px;
+top: 6280px;
+   } 
+
+/* 눈을감잔*/
+#trashgraphic33{ 
+    position: absolute;
+    width: 180px;
+    height: 358px;
+    left: 630px;
+    top: 6750px;}
+
+/*샌드위치*/
+#trashgraphic34{ 
+    position: absolute;
+    width: 180px;
+    height: 358px;
+    left: 605px;
+    top: 6115px;}
+
+/*통크*/
+#trashgraphic35{ 
+    position: absolute;
+    width: 180px;
+    height: 358px;
+    left: 525px;
+    top: 6010px;}
+
+ /* 투명리터컵 */
+#trashgraphic36{ 
+    position: absolute;
+    width: 180px;
+    height: 358px;
+    left: 1300px;
+    top: 6250px;} 
+
+/* 밀키스*/
+#trashgraphic37{ 
+    position: absolute;
+    width: 180px;
+    height: 358px;
+    left: 800px;
+    top: 6280px;}
+
+/* 몬스터*/
+#trashgraphic38{ 
+    position: absolute;
+    width: 180px;
+    height: 358px;
+    left: 1050px;
+    top: 6090px;}
+
+/* 투명비닐*/
+#trashgraphic39{ 
+    position: absolute;
+    width: 180px;
+    height: 358px;
+    left: 1255px;
+    top: 6305px;}
+
+    /* 요플레*/
+#trashgraphic40{ 
+    position: absolute;
+    width: 134px;
+    height: 196px;
+    left: 710px;
+    top: 5580px;}
+
+        /* 김치찌개*/
+#trashgraphic41{ 
+    position: absolute;
+    width: 180px;
+    height: 358px;
+    left: 1070px;
+    top: 6190px;
+rotate: -195deg;}
+
+        /* 편의점커피*/
+#trashgraphic42{ 
+    position: absolute;
+    width: 134px;
+    height: 196px;
+    left: 500px;
+    top: 6550px;}
+
+        /* 샌드위치비닐*/
+#trashgraphic43{ 
+    position: absolute;
+    width: 134px;
+    height: 196px;
+    left: 1020px;
+    top: 6400px;
+}
+
+        /* 컴포즈커피일회용*/
+#trashgraphic44{ 
+    position: absolute;
+    width: 134px;
+    height: 196px;
+    left: 1130px;
+    top: 5940px;
+rotate: -5deg;}
+
+        /* 거북알*/
+#trashgraphic45{ 
+    position: absolute;
+    width: 134px;
+    height: 196px;
+    left: 1380px;
+    top: 6550px;}
+
+ /* 우유*/
+#trashgraphic46{ 
+    position: absolute;
+    width: 180px;
+    height: 358px;
+    left: 1075px;
+    top: 5625px;}
+
+/* 사과쥬스*/
+#trashgraphic47{ 
+    position: absolute;
+    width: 134px;
+    height: 196px;
+    left: 795px;
+    top: 6480px;}
+
+    /* 콜라*/
+#trashgraphic48{ 
+    position: absolute;
+    width: 134px;
+    height: 196px;
+    left: 1005px;
+    top: 6530px;}
+
+        /*컵라면*/
+#trashgraphic49{ 
+    position: absolute;
+    width: 134px;
+    height: 196px;
+    left: 780px;
+    top: 6580px;}
