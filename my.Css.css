@@ -1,0 +1,965 @@
+body{
+    margin: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+#page-1{
+    color: aliceblue;
+}
+
+.page-indicator {
+    position:fixed;
+    left: 5%;
+    top:50%;
+    transform:translateY(-50%);
+    transition:transform 0.3s;
+}
+
+.page-indicator > ul > li.active {
+    color: aliceblue;
+}
+
+html[data-current-page-index="0"] .page-indicator {
+    transform:translateY(0);
+}
+
+#main{
+    width: 100%;
+}
+
+#mainimg{
+    width: 100%;
+}
+
+#main2{
+    width: 100%;
+    position: relative;
+}
+
+#mainimg2{
+    width: 100%;
+}
+
+/* 문제점 글에 있는 쓰레기 */
+
+
+/* 구겨진종이 */
+#problemimg1{
+    width: 6.2%;
+    position: absolute;
+    top: 47.9%;
+    left: 27.3%;
+}
+
+
+
+/* 뒤집어진 요플레 */
+#problemimg2{
+    width: 5%;
+    position: absolute;
+    top: 53.9%;
+    left: 29%;
+}
+
+
+/* 눈을감자 과자봉지 */
+#problemimg3{
+    width: 6%;
+    position: absolute;
+    top: 56.3%;
+    left: 24.2%;
+}
+
+
+
+/* 네스퀵 */
+#problemimg4{
+    width: 5%;
+    position: absolute;
+    top: 64%;
+    left: 29.7%;
+}
+
+
+
+/* 몬스터 캔 */
+#problemimg5{
+    width: 3.5%;
+    position: absolute;
+    top: 46.3%;
+    left: 41.9%;
+}
+
+
+
+/* 감동란 계란 */
+#problemimg6{
+    width: 7%;
+    position: absolute;
+    top: 51.3%;
+    left: 38.7%;
+}
+
+
+
+/* 물페트병 */
+#problemimg7{
+    width: 5.7%;
+    position: absolute;
+    top: 59.7%;
+    left: 38.8%;
+}
+
+
+/* 구론산 */
+#problemimg8{
+    width: 2.5%;
+    position: absolute;
+    top: 53.6%;
+    left: 53%;
+}
+
+
+/* 쿠크다스 */
+#problemimg9{
+    width: 6%;
+    position: absolute;
+    top: 59.7%;
+    left: 58%;
+}
+
+
+/* 종이인형 */
+#problemimg10{
+    width: 4%;
+    position: absolute;
+    top: 49.6%;
+    left: 66%;
+}
+
+
+/* 구론산 */
+#problemimg11{
+    width: 6.5%;
+    position: absolute;
+    top: 56.6%;
+    left: 69.2%;
+}
+
+#gif{
+    width: 100%;
+    position: relative;
+}
+
+#gifimg{
+    width: 100%;
+}
+
+#gradaientt{
+    position: absolute;
+    top: 0px;
+}
+
+#gradaientb{
+    position: absolute;
+    bottom: 20px;
+}
+
+#gradaientgift{
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center; 
+
+}
+
+#gradaientgifb{
+    width: 100%;
+    top: 10;
+    display: flex;
+    justify-content: center; 
+
+}
+
+
+
+
+
+#throwtrash{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#throwtrashimg{
+    position: relative;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+
+#menu{
+    height: 30%;
+    position: fixed;
+}
+
+#menuList{
+    color: #828282;
+    margin-top: 30vh;
+    position: fixed;
+    z-index: 1000;
+    list-style: none;
+
+}
+
+#menu01{
+    font-size: 160%;
+    margin-top: 15px;
+
+}
+
+#menu02{
+    font-size: 130%;
+    margin-top: 30px;
+
+}
+
+#menu03{
+    font-size: 130%;
+    margin-top: 15px;
+
+}
+
+#menu04{
+    font-size: 130%;
+    margin-top: 15px;
+
+}
+
+#menu05{
+    font-size: 130%;
+    margin-top: 15px;
+}
+
+#menu06{
+    font-size: 130%;
+    margin-top: 15px;
+}
+
+li:hover{
+    color: #DB00FF;
+}
+
+/*메뉴바 소셜디자인 타이틀 */
+#socialdesign{
+    width: 100px;
+    height: 100px;
+    z-index: 999;
+    position: absolute;
+    top: 190%;
+}
+
+/*메뉴바 실험 타이틀 */
+#experience{
+    width: 100px;
+    height: 100px;
+    z-index: 999;
+    position: absolute;
+    top: 513%;
+}
+
+/* 쓰레기 그래픽 시쟉 */
+
+#throwtrashimg{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+
+#trashgraphic{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#trashgraphicimg{
+    opacity: 0%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#throwtrashtitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*메뉴바 쓰레기 그래픽 타이틀 */
+#throwtrash{
+    width: 100px;
+    height: 100px;
+    z-index: 999;
+    position: absolute;
+    top: 750%;
+}
+
+/*메뉴바 쓰레기 변화 타이틀 */
+#change{
+    width: 100px;
+    height: 100px;
+    z-index: 999;
+    position: absolute;
+    top: 1150%;
+}
+
+
+
+/* 쌀과자 */
+#graphic1{
+    width: 15%;
+    position: absolute;
+    top: 0%;
+    left:17%;
+}
+
+/* 버스표*/
+#graphic2{
+    width: 8%;
+    position: absolute;
+    top: 0.7%;
+    left:30.2%;
+}
+
+/* 포스틱 */
+#graphic3{
+    width: 11%;
+    position: absolute;
+    top: 0.7%;
+    left:35%;
+}
+
+/* 씨유봉지 */
+#graphic4{
+    width: 21.5%;
+    position: absolute;
+    top: 1%;
+    left:44%;
+}
+
+/* 빵 포장 */
+#graphic5{
+    width: 15%;
+    position: absolute;
+    top: 0.6%;
+    left:55%;
+}
+
+/* 죽 */
+#graphic6{
+    width: 18%;
+    position: absolute;
+    top: 0%;
+    left:65.3%;
+}
+
+/* 빨대 */
+#graphic7{
+    width: 4%;
+    position: absolute;
+    top: 0%;
+    left:79.4%;
+}
+
+/* 콜라*/
+#graphic8{
+    width: 11%;
+    position: absolute;
+    top: 6.5%;
+    left: 17.7%;
+}
+
+/* 종이인형*/
+#graphic9{
+    width: 17%;
+    position: absolute;
+    top: 4.5%;
+    left: 25.2%;
+}
+
+/* 구겨진종이*/
+#graphic10{
+    width: 11%;
+    position: absolute;
+    top: 5%;
+    left: 37.8%;
+    rotate: 8deg;
+}
+
+/* 요구르트*/
+#graphic11{
+    width: 6%;
+    position: absolute;
+    top: 5%;
+    left: 64%;
+}
+
+/* 빵봉지*/
+#graphic12{
+    width: 17%;
+    position: absolute;
+    top: 4%;
+    left: 67%;
+}
+
+/* 큰야구르트*/
+#graphic13{
+    width: 8.3%;
+    position: absolute;
+    top: 8.6%;
+    left: 40%;
+}
+
+/* 민트초코*/
+#graphic14{
+    width: 14%;
+    position: absolute;
+    top: 8%;
+    left: 60%;
+}
+
+/* 노란빨대*/
+#graphic15{
+    width: 10%;
+    position: absolute;
+    top: 8.5%;
+    left: 68.5%;
+}
+
+/* 생수*/
+#graphic16{
+    width: 15%;
+    position: absolute;
+    top: 7.5%;
+    left: 72.3%;
+}
+
+/* 밥*/
+#graphic17{
+    width: 12%;
+    position: absolute;
+    top: 19%;
+    left: 16.7%;
+}
+
+/* 구론산*/
+#graphic18{
+    width: 7.5%;
+    position: absolute;
+    top: 21%;
+    left: 25.5%;
+}
+
+/* 씨유동그란비닐*/
+#graphic19{
+    width: 20%;
+    position: absolute;
+    top: 21.3%;
+    left: 27.2%;
+}
+
+/* 수저젓가락*/
+#graphic20{
+    width: 15%;
+    position: absolute;
+    top: 21.5%;
+    left: 41.3%;
+}
+
+/* 스타벅스*/
+#graphic21{
+    width: 17%;
+    position: absolute;
+    top: 14%;
+    left: 24.7%;
+}
+
+/* 쿠크다스*/
+#graphic22{
+    width: 8%;
+    position: absolute;
+    top: 15.5%;
+    left: 38.5%;
+}
+
+/* 티오피커피*/
+#graphic23{
+    width: 9.5%;
+    position: absolute;
+    top: 15%;
+    left: 43.5%;
+}
+
+/* 야구르트비닐*/
+#graphic24{
+    width: 24%;
+    position: absolute;
+    top: 16%;
+    left: 43.3%;
+}
+
+/* 바나나우유*/
+#graphic25{
+    width: 12%;
+    position: absolute;
+    top: 15.7%;
+    left: 64%;
+}
+
+/* 네스퀵*/
+#graphic26{
+    width: 15%;
+    position: absolute;
+    top: 17%;
+    left: 70%;
+}
+
+/* 프로틴바*/
+#graphic27{
+    width: 8.5%;
+    position: absolute;
+    top: 21.5%;
+    left: 67%;
+}
+
+/* 청포도에이드*/
+#graphic28{
+    width: 11.5%;
+    position: absolute;
+    top: 21%;
+    left: 59%;
+}
+
+/* 우유*/
+#graphic29{
+    width: 16%;
+    position: absolute;
+    top: 25%;
+    left: 13%;
+}
+
+/* 요구르트 5개*/
+#graphic30{
+    width: 24%;
+    position: absolute;
+    top: 25.3%;
+    left: 24.8%;
+}
+
+/* 사과에이드*/
+#graphic31{
+    width: 8%;
+    position: absolute;
+    top: 29.3%;
+    left: 45.2%;
+}
+
+/* 고로케*/
+#graphic32{
+    width: 10%;
+    position: absolute;
+    top: 24.5%;
+    left: 52.4%;
+}
+
+/* 더리터컵*/
+#graphic33{
+    width: 15%;
+    position: absolute;
+    top: 27.5%;
+    left: 70%;
+}
+
+/* 거북이*/
+#graphic34{
+    width: 10%;
+    position: absolute;
+    top: 33%;
+    left: 24.5%;
+}
+
+/* 수정테이프*/
+#graphic35{
+    width: 8%;
+    position: absolute;
+    top: 34%;
+    left: 30.3%;
+}
+
+/* 딸기주스*/
+#graphic36{
+    width: 9%;
+    position: absolute;
+    top: 33.5%;
+    left: 36%;
+}
+
+/* 샌드위치*/
+#graphic37{
+    width: 11.5%;
+    position: absolute;
+    top: 34%;
+    left: 43%;
+}
+
+/* 홀더끼운더리터*/
+#graphic38{
+    width: 10.5%;
+    position: absolute;
+    top: 36.2%;
+    left: 52.5%;
+}
+
+/* 펩시*/
+#graphic39{
+    width: 14%;
+    position: absolute;
+    top: 29.4%;
+    left: 61.3%;
+}
+
+/* 밀키스*/
+#graphic40{
+    width: 7%;
+    position: absolute;
+    top: 30.5%;
+    left: 51.5%;
+}
+
+/* 노란 야구르트*/
+#graphic41{
+    width: 10%;
+    position: absolute;
+    top: 29.8%;
+    left: 55.5%;
+}
+
+/* 투명비닐*/
+#graphic42{
+    width: 10%;
+    position: absolute;
+    top: 36.5%;
+    left: 72.5%;
+}
+
+/* 감동란*/
+#graphic43{
+    width: 10%;
+    position: absolute;
+    top: 41%;
+    left: 72.5%;
+}
+
+/* 블루레몬에이드*/
+#graphic44{
+    width: 11%;
+    position: absolute;
+    top: 42.7%;
+    left: 72.3%;
+}
+
+/* 파란종이*/
+#graphic45{
+    width: 31%;
+    position: absolute;
+    top: 36.3%;
+    left: 12%;
+}
+
+/* 김치찌개*/
+#graphic46{
+    width: 25%;
+    position: absolute;
+    top: 39%;
+    left: 32%;
+}
+
+/* 컵라면*/
+#graphic47{
+    width: 16%;
+    position: absolute;
+    top: 40.5%;
+    left: 53%;
+}
+
+/* 내용물스타벅스*/
+#graphic48{
+    width: 10%;
+    position: absolute;
+    top: 44.4%;
+    left: 64.7%;
+}
+
+/* 편의점 커피*/
+#graphic49{
+    width: 9.5%;
+    position: absolute;
+    top: 43.6%;
+    left: 17%;
+}
+
+/* 스누피 커피*/
+#graphic50{
+    width: 10%;
+    position: absolute;
+    top: 49.8%;
+    left: 24.5%;
+}
+
+/* 찌그러진물병*/
+#graphic51{
+    width: 11%;
+    position: absolute;
+    top: 42.7%;
+    left: 29%;
+}
+
+/* 눈을감자*/
+#graphic52{
+    width: 16%;
+    position: absolute;
+    top: 47%;
+    left: 35.5%;
+}
+
+/* 몬스터*/
+#graphic53{
+    width: 10%;
+    position: absolute;
+    top: 46%;
+    left: 47.5%;
+}
+
+/* 큰아메리카노팩*/
+#graphic54{
+    width: 18%;
+    position: absolute;
+    top: 49.3%;
+    left: 54%;
+}
+
+/* 카페일회용컵*/
+#graphic55{
+    width: 9%;
+    position: absolute;
+    top: 47%;
+    left: 67.7%;
+}
+
+/* 뜨거운스타벅스*/
+#graphic56{
+    width: 8%;
+    position: absolute;
+    top: 48.8%;
+    left: 74%;
+}
+
+/* 핑크빨대*/
+#graphic57{
+    width: 9%;
+    position: absolute;
+    top: 43.5%;
+    left: 22.7%;
+}
+
+/* 통크*/
+#graphic58{
+    width: 8%;
+    position: absolute;
+    top: 48.5%;
+    left: 18.6%;
+}
+
+/* 컴포즈*/
+#graphic59{
+    width: 11%;
+    position: absolute;
+    top: 50%;
+    left: 30.3%;
+}
+
+/* 더리터*/
+#graphic60{
+    width: 13%;
+    position: absolute;
+    top: 53.5%;
+    left: 38.5%;
+}
+
+/* 팔공티*/
+#graphic61{
+    width: 12%;
+    position: absolute;
+    top: 53.0%;
+    left: 47%;
+}
+
+/* 디자인책*/
+#graphic62{
+    width: 18%;
+    position: absolute;
+    top: 58%;
+    left: 56%;
+}
+
+/* 샌드위치*/
+#graphic63{
+    width: 15%;
+    position: absolute;
+    top: 53.5%;
+    left: 68%;
+}
+
+/* 피자*/
+#graphic64{
+    width: 18%;
+    position: absolute;
+    top: 56%;
+    left: 16.7%;
+}
+
+/* 청포도에이드*/
+#graphic65{
+    width: 8%;
+    position: absolute;
+    top: 56%;
+    left: 33%;
+}
+
+/* 종이*/
+#graphic66{
+    width: 17%;
+    position: absolute;
+    top: 61%;
+    left: 28%;
+}
+
+/* 에이치커피*/
+#graphic67{
+    width: 17%;
+    position: absolute;
+    top: 60%;
+    left: 39%;
+}
+
+/* 컴포즈*/
+#graphic68{
+    width: 10%;
+    position: absolute;
+    top: 62.5%;
+    left: 49.5%;
+}
+
+/* 두유*/
+#graphic69{
+    width: 11%;
+    position: absolute;
+    top: 57%;
+    left: 71%;
+}
+
+
+#letterBox{
+    position:absolute;
+    width: 250px;
+    height: 60px;
+    background-color: black;
+    border: #DB00FF solid 2px;
+    border-radius: 10px;
+    visibility:visible ;
+    font-family: 'Noto Serif KR';
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+
+}
+
+#letterBox.on{
+    visibility:visible ;
+}
+
+#gradaientbb{
+    position: absolute;
+    top: 30%;
+}
+
+#gradaientgifbb{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+
+}
+
+#mainimg3{position:absolute;
+    width: 100%;
+    top: 70%; 
+}
+
+
+
+#curtainr{position:absolute;
+    width: 100%;
+    top: 175%; 
+}
+
+#curtainr{position:absolute;
+    width: 100%;
+    top: 175%; 
+}
+
+/* 어워드 메뉴바 타이틀 */
+
+#award{
+    width: 100px;
+    height: 100px;
+    z-index: 999;
+    position: absolute;
+    top: 1610%;
+}
+
+#mainimg4{position:absolute;
+    width: 100%;
+    top: 220%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
